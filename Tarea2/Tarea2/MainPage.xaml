@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea2.MainPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem 
+            Text="Limpiar" x:Name="Clear"
+            Order="Secondary"
+            Priority="0"
+            Clicked="Clear_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout 
+        BackgroundColor="#000000">
+
+
+        <Frame BackgroundColor="#1b1b1b" Margin="30,20,30,0" CascadeInputTransparent="True" CornerRadius="20" BorderColor="#937FFF" >
+            <StackLayout>
+
+                <Label Text="Por Favor Ingrese sus Datos" FontSize="28" Padding="10,10,10,30" TextColor="#af95cf" HorizontalTextAlignment="Center"/>
+
+                <Label Text="Nombre" FontSize="18" Padding="10,10,30,5" TextColor="#af95cf"/>
+                <Frame BackgroundColor="#FF9D85FF" CornerRadius="15" HasShadow="False">
+                    <Entry FontSize="18"  TextColor="Black" x:Name="nomb" Keyboard="Default" Placeholder="Ingrese su Nombre" PlaceholderColor="Black" Margin="-15" MaxLength="50"/>
+                </Frame>
+
+                <Label Text="Apellido" FontSize="18" Padding="10,10,30,5" TextColor="#af95cf"/>
+                <Frame BackgroundColor="#FF9D85FF" CornerRadius="15" HasShadow="False">
+                    <Entry FontSize="18"  TextColor="Black" x:Name="apel" Keyboard="Default" Placeholder="Ingrese su Apellido" PlaceholderColor="Black" Margin="-15" MaxLength="50"/>
+                </Frame>
+
+                <Label Text="Edad" FontSize="18" Padding="10,10,30,5" TextColor="#af95cf"/>
+                <Frame BackgroundColor="#FF9D85FF" CornerRadius="15" HasShadow="False">
+                    <Entry FontSize="18"  TextColor="Black" x:Name="edad" Keyboard="Numeric" Placeholder="Ingrese su Edad" PlaceholderColor="Black" Margin="-15" MaxLength="50"/>
+                </Frame>
+
+                <Label Text="Correo" FontSize="18" Padding="10,10,30,5" TextColor="#af95cf"/>
+                <Frame BackgroundColor="#FF9D85FF" CornerRadius="15" HasShadow="False">
+                    <Entry FontSize="18"  TextColor="Black" x:Name="dire" Keyboard="Default" Placeholder="Ingrese su Direccion" PlaceholderColor="Black" Margin="-15" MaxLength="30"/>
+                </Frame>
+                
+                <Label Text="" FontSize="10" Padding="10,10,10,10" TextColor="#af95cf"/>
+
+                <Button x:Name="BTN_Enviar"  
+                        Text="Enviar Datos" 
+                        BackgroundColor="#af95cf" 
+                        Margin="70,0,70,0"
+                        FontSize="20" Clicked="BTN_Enviar_Clicked"/>
+
+
+            </StackLayout>
+        </Frame>
+
+    </StackLayout>
+
+</ContentPage>

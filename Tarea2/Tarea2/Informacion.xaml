@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea2.Informacion">
+    <ContentPage.Content>
+
+        <StackLayout 
+        BackgroundColor="#000000">
+
+
+            <Frame HorizontalOptions="Center" HeightRequest="-1" IsClippedToBounds="False" BackgroundColor="#121212" Margin="0,30,0,0" CornerRadius="10" BorderColor="#8663F8">
+                <StackLayout  HorizontalOptions="Center" VerticalOptions="Center" >
+
+                    <StackLayout Margin="0,5,0,5" HorizontalOptions="Center" >
+
+                        <Label Text="Bienvenido" FontSize="28" Padding="10,0,10,5" TextColor="#af95cf" HorizontalTextAlignment="Center"/>
+
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
+                            <Label Text="{Binding d1}" FontSize="24" Padding="0,10,0,0" TextColor="#af95cf"/>
+                    
+                            <Label Text="{Binding d2}" FontSize="24" Padding="0,10,0,0" TextColor="#af95cf"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Start" >
+                            <Label Text="Edad: " FontSize="18" Padding="0,10,0,5" TextColor="#af95cf" HorizontalTextAlignment="Center"/>
+                            <Label Text="{Binding d3}" FontSize="18" Padding="30,10,0,5" TextColor="#af95cf" HorizontalTextAlignment="Center"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Start" >
+                            <Label Text="Direccion: " FontSize="18" Padding="0,0,0,5" TextColor="#af95cf" HorizontalTextAlignment="Center"/>
+                            <Label Text="{Binding d4}" FontSize="18" Padding="0,0,00,5" TextColor="#CCA3FF" HorizontalTextAlignment="Center"/>
+                        </StackLayout>
+
+                    </StackLayout>
+
+
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

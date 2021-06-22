@@ -1,0 +1,15 @@
+C:\Users\BLK\source\repos\Tarea2\Tarea2\Tarea2\bin\Debug\netstandard2.0\Tarea2.deps.json
+C:\Users\BLK\source\repos\Tarea2\Tarea2\Tarea2\bin\Debug\netstandard2.0\Tarea2.dll
+C:\Users\BLK\source\repos\Tarea2\Tarea2\Tarea2\bin\Debug\netstandard2.0\ref\Tarea2.dll
+C:\Users\BLK\source\repos\Tarea2\Tarea2\Tarea2\bin\Debug\netstandard2.0\Tarea2.pdb
+C:\Users\BLK\source\repos\Tarea2\Tarea2\Tarea2\obj\Debug\netstandard2.0\Tarea2.csproj.AssemblyReference.cache
+C:\Users\BLK\source\repos\Tarea2\Tarea2\Tarea2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\BLK\source\repos\Tarea2\Tarea2\Tarea2\obj\Debug\netstandard2.0\Informacion.xaml.g.cs
+C:\Users\BLK\source\repos\Tarea2\Tarea2\Tarea2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\BLK\source\repos\Tarea2\Tarea2\Tarea2\obj\Debug\netstandard2.0\Tarea2.AssemblyInfoInputs.cache
+C:\Users\BLK\source\repos\Tarea2\Tarea2\Tarea2\obj\Debug\netstandard2.0\Tarea2.AssemblyInfo.cs
+C:\Users\BLK\source\repos\Tarea2\Tarea2\Tarea2\obj\Debug\netstandard2.0\Tarea2.csproj.CoreCompileInputs.cache
+C:\Users\BLK\source\repos\Tarea2\Tarea2\Tarea2\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\BLK\source\repos\Tarea2\Tarea2\Tarea2\obj\Debug\netstandard2.0\Tarea2.dll
+C:\Users\BLK\source\repos\Tarea2\Tarea2\Tarea2\obj\Debug\netstandard2.0\ref\Tarea2.dll
+C:\Users\BLK\source\repos\Tarea2\Tarea2\Tarea2\obj\Debug\netstandard2.0\Tarea2.pdb
